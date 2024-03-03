@@ -1,7 +1,6 @@
 version: '3.8'
 services:
   smtp-server:
-    #container_name: smtp-server
     build:
       context: .
       args:
